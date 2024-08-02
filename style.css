@@ -365,3 +365,72 @@ button{
 .header-bottom__text{
     font-size: 16px;
 }
+
+/*////////////////////main///////////////////////////////////*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 152px;
+}
+
+.main-banners{
+    margin-top: 134px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-banners .container{
+    display: flex;
+    gap: 20px;
+}
+
+.main-banners-item {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    background-color: #F3EFFF;
+}
+
+.main-banners-item-icon {
+    margin: 40px 80px 56px 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.main-banners-item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-right: 30px;
+}
+
+.main-banners-item-content__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.main-banners-item-content__subtitle {
+    font-size: 16px;
+    color: #9293B0;
+}
+
+.main-banners-item-mask {
+    position: absolute;
+    right: 0; 
+    bottom: 0;
+    width: 347px;
+    height: 196px;
+    z-index: -100;
+    overflow: hidden;
+}
+
+.main-banners-item-mask-img {
+    width: 180%;
+    height: 180%;
+    position: relative;
+    right: 160px; 
+    bottom: 60px;
+}
